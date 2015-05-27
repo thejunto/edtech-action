@@ -1,0 +1,13 @@
+---
+# The scss file which include files from _sass/
+---
+
+@charset "utf-8";
+
+/* Changed Bootstrap file extension to .scss in order to import */
+@import "bootstrap";
+@import "magnific-popup";
+@import "main";
+@import "pages";
+@import "form";
+@import "fonts";

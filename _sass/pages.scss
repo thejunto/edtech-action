@@ -1,0 +1,122 @@
+.bg-grey {
+  background-color: $background-grey;
+}
+
+.bg-blue {
+  background-color: $primary-color;
+  h1, h2, p, a, a:hover { color: white; }
+}
+
+.box {
+  margin-top: 1.5rem;
+  background-color: #fff;
+}
+
+.logo {
+  max-width: 6rem;
+  margin-top: 1.5rem;
+}
+
+h2 {
+  text-align: center;
+  display: block;
+  padding-bottom: 15px;
+  margin: 0 1rem 0.2rem;
+}
+
+.top {
+  background-image: url('../img/top.jpg');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.texas {
+  max-height: 10rem;
+}
+
+.companies {
+  padding-right: 6rem;
+  padding-left: 6rem;
+
+  img {
+    margin-bottom: 30px;
+    max-width: 100%;
+    height: auto;
+  }
+}
+
+#mentors {
+
+  img {
+    margin-bottom: 20px;
+  }
+}
+
+.box {
+  padding: 0;
+  margin-bottom: 1rem;
+
+  img {
+    width: 100%;
+  }
+
+  .box-content {
+    padding: 1.5rem;
+  }
+
+  h3 {
+    color: $secondary-color;
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: 0.03rem;
+    text-align: left;
+    margin-bottom: 1rem;
+  }
+
+  .view-more {
+    display: block;
+    background-color: $secondary-color;
+    color: #fff;
+    padding: 10px 1.5rem;
+  }
+}
+
+#services .box p {
+  @media (min-width: 992px) {
+    height: 9rem;
+  }
+}
+
+.navbar-default {
+  padding: 15px 0px;
+  background-color: white;
+  border: 0;
+}
+
+.navbar-brand img {
+  margin-top: -15px;
+  max-height: 50px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  font-size: 0.9rem;
+  font-weight: 100;
+  letter-spacing: 0.05rem;
+  text-transform: uppercase;
+  color: $primary-color;
+  border-left: normal $primary-color;
+}
+
+.copyright {
+  font-family: 'Neutra', sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+}
+
+footer {
+  padding: 20px 0;
+  p {
+    margin: 0;
+  }
+}

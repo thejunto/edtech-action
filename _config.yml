@@ -1,0 +1,12 @@
+# Site settings
+title: EdTech Action | Entrepreneurs in Education
+tagline: We help EdTech companies grow
+url: "http://www.edtechaction.com" # The base hostname & protocol for your site. Use it if you need absolute URL's
+
+# Social
+socialimg: /img/logo.png # be sure to change this image
+facebook:
+twitter:
+instagram:
+
+exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
