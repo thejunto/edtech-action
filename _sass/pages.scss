@@ -5,6 +5,10 @@
 .bg-blue {
   background-color: $primary-color;
   h1, h2, p, a, a:hover { color: white; }
+
+  .button, .button:hover {
+    color: $primary-color;
+  }
 }
 
 .box {
